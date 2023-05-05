@@ -1,0 +1,308 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body{
+    font-family: 'Courier New';
+    background-color: #322f30;;
+    color:#fff;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+}
+
+/*Date Time */
+
+.date-time {
+  text-align: right;
+  padding-right: 2.5vw;
+  bottom: 16vw;
+  position: relative;
+}
+
+.clock {
+  font-family: Courier New;
+  font-size: 1.56vw;
+  padding-right: 3vw;
+}
+
+.date {
+  font-family: Courier New;
+  font-size: 1.56vw;
+  padding-top: 1vw;
+}
+
+::selection{
+  color: #464646;
+}
+
+/* Scroll Bar*/
+
+body::-webkit-scrollbar {
+  width: 0.52vw;              
+}
+
+body::-webkit-scrollbar-track {
+  scrollbar-width: thin;
+  scrollbar-color: #e3e3e3 transparent;        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #1b1b1b;
+  border-radius: 1.04vw;
+}
+
+/*Nav-bar*/
+
+ *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  }
+  
+  a:hover{
+    color:#fff;
+  }
+  ul, li, .logo {
+    font-family: Courier New;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 00;
+    margin: 0;
+    padding: 0;
+  }
+  .inner {
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 0.4vw;
+  }
+  
+  header {
+    position: relative;
+    width: 100%;
+    padding-top: 0.26vw;
+    background: #1b1b1b;
+    transition: 0.7s all;
+    z-index: 100;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  nav {
+    overflow: hidden;
+    padding-right: 3vw;
+  }
+  
+  nav ul {
+    float: right;
+    position: relative;
+  }
+  
+  nav li {
+    display: inline;
+    float: left;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.30vw;
+    transition: 0.3s all;
+    font-size: 1vw;
+    padding-right: 1vw;
+  }
+  
+  nav a:hover {
+    background: rgb(41, 41, 41);
+  }
+  
+  .logo {
+    float: left;
+    color: #fff;
+    font-size: 2.60vw;
+    line-height: 2.60vw;
+    padding-left: 3vw;
+  
+  }
+  
+  
+  section .inner {
+    padding-top: 10.42vw;
+  }
+
+  /* Avatar */
+
+  .circle-image{
+    border-radius: 50%;
+    border: solid #464646;
+    overflow: hidden;
+    width: 10.42vw;
+    height: 10.42vw;
+    display: block;
+    margin-top: 0.52vw;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .circle-image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+
+    .scale {
+      transition: 1s; 
+     }
+     .scale:hover {
+      transform: scale(1.2); 
+     }
+     .center-pic{
+    border-radius: 0.52vw;
+  }
+  
+  .h1-title {
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    font-family:Courier New;
+    text-align: center;
+    margin-top: 1.04vw;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+  } 
+
+/* Icons */
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+p > a:hover{
+  color: #d9d9d9;
+  text-decoration:  underline;
+}
+
+.footer-social-icons {
+  width: 135px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-icon {
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-icons li {
+  vertical-align: top;
+  display: inline;
+  height: 100px;
+}
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  
+}
+.fa-github {
+  padding:10px 12px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #3d3d3d;
+  border-radius: 25px;
+  
+}
+.fa-github:hover {
+  background-color: #3d3d3d;
+}
+.fa-instagram {
+  padding:10px 12px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #3d3d3d;
+  border-radius: 25px;
+}
+.fa-instagram:hover {
+  background-color: #3d3d3d;
+}
+.fa-steam {
+  padding:10px 10px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition: .5s;
+  background-color: #3d3d3d;
+  border-radius: 25px;
+}
+.fa-steam:hover {
+  background-color: #3d3d3d;
+}
+
+
+/* Projects in main page */ 
+
+.container-main {
+  position: absolute;
+  display: flex;
+  margin-left: 34.3vw;
+  margin-right: 37vw;
+  margin-top: -4.5vw;
+}
+
+.projects-main{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.56vw;
+  row-gap: 1.56vw;
+}
+
+.project-main{
+  max-width: 31.25vw;
+  background-color:#464646;
+  border-radius: 0.52vw;
+}
+
+.project-img-main{
+  border-radius: 0.52vw;
+  width: 31.25vw;
+}
+
+.project-subtitle-main{
+  font-weight: 800;
+}
+
+/* Projects in "Projects" page*/
+
+.container-second{
+  margin-top: 2.5vw;
+  margin-left: 12.2vw;
+}
+
+.projects-second{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 11.6vw;
+  row-gap: 1.56vw;
+}
+
+.project-second{
+  max-width: 31.25vw;
+  background-color:#464646;
+  border-radius: 0.52vw;
+}
+
+.project-img-second{
+  border-radius: 0.52vw;
+  width: 31.25vw;
+}
+
+.project-subtitle-second{
+  font-weight: 800;
+}
