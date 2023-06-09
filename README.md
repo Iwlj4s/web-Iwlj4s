@@ -1,2 +1,2 @@
 # web-Iwlj4s
-It's like portfolio, Idk
+It's like portfolio
